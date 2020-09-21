@@ -1,0 +1,27 @@
+#Blaze Locators
+SignIn_Id=signin2
+ButtonXpath=//button[@onclick='register()']
+LoginId=login2
+LoginButton=//button[@onclick='logIn()']
+ContactLink=//a[@data-target='#exampleModal']
+SendMessage=//button[@onclick='send()']
+Home=nav-link
+MobileLink=//img[@src='imgs/Lumia_1520.jpg']
+AddToCart=//a[@onclick='addToCart(2)']
+CartLink=//a[@id='cartur']
+PlaceOrder=//button[@data-target='#orderModal']
+ClickPlaceOrder=//button[@onclick='purchaseOrder()']
+OKButton=//button[@class='confirm btn btn-lg btn-primary']
+Signup_Username=input[id=sign-username]
+Signup_Password=//input[@id='sign-password']
+Login_User=input[id=loginusername]
+Login_Password=//input[@id='loginpassword']
+Recipient_Email=input[id=recipient-email]
+Recipient_name=input[id=recipient-name]
+Messageid=message-text
+Name_id=name
+Country_id=country
+City_id=city
+Card_id=card
+Month_id=month
+Year_id=year

@@ -1,0 +1,9 @@
+#PhpTravels Locators
+ChatWidget=//div[@aria-label='Open LiveChat chat widget']
+Name=name
+WhatsApp=(//input[@class='lc-1gz7fd7 e1xplv9i0'])[2]
+Email=email
+Dropdown=//select[@class='lc-jjhb0i egtcv0s1']
+StartChat=//button[@class='lc-tf4jp6 esv0owm0']
+value=index1_1
+Frame_Id=chat-widget

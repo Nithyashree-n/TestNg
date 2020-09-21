@@ -35,11 +35,11 @@ public class redbus {
 	public void site() throws IOException {
 		String chromeDriverPath = System.getProperty("user.dir") + "\\chromedriver.exe";
 		FileInputStream file = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\test\\java\\SeleniumProject\\Project\\locators.properties");
+				System.getProperty("user.dir") + "\\src\\test\\java\\SeleniumProject\\locators.properties");
 		prop = new Properties();
 		prop.load(file);
 		FileInputStream dataFile = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\test\\java\\SeleniumProject\\Project\\data.properties");
+				System.getProperty("user.dir") + "\\src\\test\\java\\SeleniumProject\\data.properties");
 
 		data = new Properties();
 		data.load(dataFile);
@@ -104,7 +104,7 @@ public class redbus {
 		driver.findElement(By.xpath(".//*[@id='search']/div/div[3]/div/label")).click();
 		Thread.sleep(2000);
 		
-		String date = "10-Oct 2018";
+		String date = "10-Oct 2020";
 		String splitter[] = date.split("-");
 		String month_year = splitter[1];
 		String day = splitter[0];	

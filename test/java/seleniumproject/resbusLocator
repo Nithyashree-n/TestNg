@@ -1,0 +1,13 @@
+XpathSignIn=//a[@id='get_sign_in']
+XpathfbSignIn=//button[@id='authFBSignInBtn']
+emailLoginXpath=//input[@name='login']
+TripDetails-id=TripDetails
+SearchXpath=(".//*[@id='search']/div/div[1]/div/ul/li[1]"))
+FromXpath=("//input[@id='src']"))
+ToXpath=("//input[@id='dest']"))
+XpathEmail=("//input[@id='email']"))
+Xpathpassword=//input[@id='pass']
+Xpathlable=//*[@id='search']
+Xpathsearchbutton=//*[@id='search_btn']
+XpathReturn=//input/div[@id='rb-calendar_onward_cal']
+TravelSelectXpath=//*[@id='rb-calendar_onward_cal']
